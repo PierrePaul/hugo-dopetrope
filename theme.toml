@@ -2,20 +2,18 @@
 # See https://github.com/spf13/hugoThemes#themetoml for an example
 
 name = "Dopetrope"
-license = "MIT"
-licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE.md"
+license = "CC3"
+licenselink = "http://creativecommons.org/licenses/by/3.0/"
 description = ""
-homepage = "http://siteforthistheme.com/"
+homepage = "https://github.com/PierrePaul/hugo-dopetrope"
 tags = []
 features = []
 min_version = 0.18
 
 [author]
-  name = ""
-  homepage = ""
+  name = "Pierre Paul Lefebvre"
+  homepage = "https://www.pierre-paul.com"
 
-# If porting an existing theme
 [original]
-  name = ""
-  homepage = ""
-  repo = ""
+  name = "Dopetrope"
+  homepage = "https://html5up.net/dopetrope"
