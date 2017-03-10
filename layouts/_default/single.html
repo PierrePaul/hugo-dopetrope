@@ -1,0 +1,13 @@
+{{ partial "header" . }}
+
+<section class="box">
+    <a href="{{ .Permalink }}" class="image featured"><img src="/img/{{ .Date.Format "2006" }}/{{ .Date.Format "02" }}/{{ .Params.featured }}" alt="{{ .Params.featuredalt }}" /></a>
+    <header>
+        <h1>{{ .Title }}</a></h1>
+        <p>{{ .Date.Format "Monday January 1, 2006" }}</p>
+    </header>
+    {{ .Content }}
+</section>
+
+
+{{ partial "footer" . }}
